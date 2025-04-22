@@ -1,0 +1,8 @@
+streamlit
+pandas
+matplotlib
+pydeck
+seaborn
+folium
+requests
+wordcloud
