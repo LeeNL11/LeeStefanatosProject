@@ -48,7 +48,7 @@ st.markdown(
 )
 
 # Sidebar controls
-st.sidebar.title("🍔 Fast Food Explorer")
+st.sidebar.title("🍔 Lee's Fast Food Explorer")
 st.sidebar.write("Use the filters below to explore the data.")
 
 # [ST1] Multiselect restaurant chains
@@ -67,7 +67,7 @@ filtered_df = df[(df['name'].isin(selected_restaurants)) & (df['province'] == se
 if city_input:
     filtered_df = filtered_df[filtered_df['city'].str.contains(city_input, case=False)]
 
-st.title("📊 U.S. Fast Food Restaurant Explorer")
+st.title("📊 Lee's U.S. Fast Food Restaurant Explorer")
 st.markdown("Explore restaurant locations, trends, and maps across the USA.")
 
 # [CHART1] Bar chart + [DA2] Sort values
